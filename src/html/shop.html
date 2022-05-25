@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/src/css/main.css">
+    <link rel="stylesheet" href="/src/css/shop.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid px-5">
+          <a class="navbar-brand" href="/index.html">Tranxia</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item pe-3">
+                <a class="nav-link " href="/index.html">Home</a>
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link active" href="#">Shop</a>
+              </li>
+              <li class="nav-item pe-3    ">
+                <a class="nav-link" href="/src/html/about.html">About</a>
+              </li>
+              
+              </ul>
+              <button class="btn btn-success px-4   " type="submit"><a href="./src/html/login.html"> Log In</a></button>
+              
+            
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <section id="sh-section-1 mt-3">
+        <div id="carouselExampleCaptions" class="carousel slide  carousel-dark slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="1000">
+                <img src="/assets/cr-1.jpeg" class=" img-fluid d-block h-100 w-100 " alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/cr-2.jpeg" class=" img-fluid d-block h-100  w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/cr-3.jpeg" class=" img-fluid  d-block h-100 w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+
+          <section id="sh-section-2">
+            <div class="container-fluid bg-dark  d-flex flex-wrap justify-content-center align-items-center">
+                 <li class="nav-item d-block " style="list-style-type:none;"><a href="#" class="nav-link text-white   fs-5" onclick="resetStyle();" >All</a></li>
+                  <li class="nav-item d-block" style="list-style-type:none;"><a href="#" class="nav-link  text-white fs-5" onclick="showItem1();" >Item 1</a> </li>
+                  <li class="nav-item d-block" style="list-style-type:none;"><a href="#" class="nav-link text-white  fs-5" onclick="showItem2();">Item 2</a></li>
+                  <li class="nav-item d-block"  style="list-style-type:none;"><a href="#" class="nav-link text-white  fs-5" onclick="showItem3();">Item 3</a></li>
+                
+              </div>
+              </section>
+            
+              <section id=" h-section-3">
+                <div class="container-fluid p-3">
+                <div class="row">
+            
+                  <div class="p-3 col col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 item-1 d-flex justify-content-center item-1">
+                      <div class="item-1">
+                      <div class=" container-fluid p-0 m-0 d-flex justify-content-start item-1">
+                    <img  src="https://picsum.photos/300/200?random=1" class="img-fluid item-1 " alt="">
+                </div>
+                    <p class="m-0 p-1 item-1">Lorem ipsum dolor sit amet.</p>
+                    <div class="container-fluid m-0 p-0 d-flex justify-content-start item-1">
+                    <div class="ratings p-2 item-1">
+                        <i class="fa fa-star rating-color"></i>
+                        <i class="fa fa-star rating-color"></i>
+                        <i class="fa fa-star rating-color"></i>
+                        <i class="fa fa-star rating-color"></i>
+                        <i class="fa fa-star rating-color"></i>
+                     
+                    </div>
+                </div>
+                <div class="d-flex justify-content-end item-1">
+                    <button class="btn btn-success item-1">Order</button>
+                </div>
+                  </div>
+                </div>
+
+                <div class="p-3 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 item-1 d-flex justify-content-center item-1">
+                    <div class="item-1">
+                    <div class=" container-fluid p-0 m-0 d-flex justify-content-start item-1">
+                  <img  src="https://picsum.photos/300/200?random=1" class="img-fluid item-1 " alt="">
+              </div>
+                  <p class="m-0 p-1 item-1">Lorem ipsum dolor sit amet.</p>
+                  <div class="container-fluid m-0 p-0 d-flex justify-content-start item-1">
+                  <div class="ratings p-2 item-1">
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                   
+                  </div>
+              </div>
+              <div class="d-flex justify-content-end item-1">
+                  <button class="btn btn-success item-1">Order</button>
+              </div>
+                </div>
+              </div>
+
+              <div class="p-3 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 item-1 d-flex justify-content-center item-2">
+                <div class="item-2">
+                <div class=" container-fluid p-0 m-0 d-flex justify-content-start item-2">
+              <img  src="https://picsum.photos/300/200?random=2" class="img-fluid item-2 " alt="">
+          </div>
+              <p class="m-0 p-1 item-2">Lorem ipsum dolor sit amet.</p>
+              <div class="container-fluid m-0 p-0 d-flex justify-content-start item-2">
+              <div class="ratings p-2 item-2">
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+
+               
+              </div>
+          </div>
+          <div class="d-flex justify-content-end item-2">
+              <button class="btn btn-success item-2">Order</button>
+          </div>
+            </div>
+          </div>
+         
+          <div class="p-3 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 item-1 d-flex justify-content-center item-2">
+            <div class="item-2">
+            <div class=" container-fluid p-0 m-0 d-flex justify-content-start item-2">
+          <img  src="https://picsum.photos/300/200?random=2" class="img-fluid item-2 " alt="">
+      </div>
+          <p class="m-0 p-1 item-2">Lorem ipsum dolor sit amet.</p>
+          <div class="container-fluid m-0 p-0 d-flex justify-content-start item-2">
+          <div class="ratings p-2 item-2">
+              <i class="fa fa-star rating-color"></i>
+              <i class="fa fa-star rating-color"></i>
+              <i class="fa fa-star rating-color"></i>
+              <i class="fa fa-star rating-color"></i>
+           
+          </div>
+      </div>
+      <div class="d-flex justify-content-end item-2">
+          <button class="btn btn-success item-2">Order</button>
+      </div>
+        </div>
+      </div>
+
+  
+      <div class="p-3 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 item-1 d-flex justify-content-center item-2">
+        <div class="item-2">
+        <div class=" container-fluid p-0 m-0 d-flex justify-content-start item-2">
+      <img  src="https://picsum.photos/300/200?random=2" class="img-fluid item-2 " alt="">
+  </div>
+      <p class="m-0 p-1 item-2">Lorem ipsum dolor sit amet.</p>
+      <div class="container-fluid m-0 p-0 d-flex justify-content-start item-2">
+      <div class="ratings p-2 item-2">
+          <i class="fa fa-star rating-color"></i>
+          <i class="fa fa-star rating-color"></i>
+          <i class="fa fa-star rating-color"></i>
+          <i class="fa fa-star rating-color"></i>
+
+       
+      </div>
+  </div>
+  <div class="d-flex justify-content-end item-2">
+      <button class="btn btn-success item-2">Order</button>
+  </div>
+    </div>
+  </div>
+
+  <div class="p-3 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 item-1 d-flex justify-content-center item-3">
+    <div>
+    <div class="container-fluid p-0 m-0 d-flex justify-content-start item-3">
+  <img  src="https://picsum.photos/300/200?random=3" class="img-fluid item-3 " alt="">
+</div class="item-3">
+  <p class="m-0 p-1 item-3">Lorem ipsum dolor sit amet.</p>
+  <div class="container-fluid m-0 p-0 d-flex justify-content-start item-3">
+  <div class="ratings p-2 item-3">
+      <i class="fa fa-star rating-color"></i>
+      <i class="fa fa-star rating-color"></i>
+      <i class="fa fa-star rating-color"></i>
+      <i class="fa fa-star rating-color"></i>
+   
+  </div>
+</div>
+<div class="d-flex justify-content-end item-3">
+  <button class="btn btn-success item-3">Order</button>
+</div>
+</div>
+</div>
+
+<div class="p-3 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 item-1 d-flex justify-content-center item-3">
+    <div class="item-3">
+    <div class=" container-fluid p-0 m-0 d-flex justify-content-start item-3">
+  <img  src="https://picsum.photos/300/200?random=3" class="img-fluid  item-3" alt="">
+</div>
+  <p class="m-0 p-1 item-3">Lorem ipsum dolor sit amet.</p>
+  <div class="container-fluid m-0 p-0 d-flex justify-content-start item-3">
+  <div class="ratings p-2 item-3">
+      <i class="fa fa-star rating-color"></i>
+      <i class="fa fa-star rating-color"></i>
+      <i class="fa fa-star rating-color"></i>
+      <i class="fa fa-star rating-color"></i>
+   
+  </div>
+</div>
+<div class="d-flex justify-content-end item-3">
+  <button class="btn btn-success item-3">Order</button>
+</div>
+</div>
+</div>
+
+
+
+
+                     
+</div>
+</div>  
+</section>
+ </main>
+   
+    <footer class="d-flex justify-content-center align-items-center border-top bg-dark text-light">
+        <p class="p-3 m-0 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, obcaecati.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="/src/js/shop.js"></script>
+    
+
+</body>
+</html>

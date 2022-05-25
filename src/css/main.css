@@ -4,8 +4,9 @@
 }
 
 body{
-background-color: var(--bg-color);
-color:var(--text-light);
+
+background-color: var(--text-light);
+color: var(--bg-color);
 }
 
 button a{
@@ -27,7 +28,3 @@ main{
     position: relative;
 }
 
-footer{
-    background-color: var(--text-light);
-    color: var(--bg-color);
-}
