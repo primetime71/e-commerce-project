@@ -1,3 +1,3 @@
 # e-commerce-project
 
-E-commerce-project for mah kalej :grinning: :thumbsup:
+**E-commerce-project for my kalej :grinning: :thumbsup:**
